@@ -1,0 +1,43 @@
+### llama
+# curl -X POST -H "Content-Type: application/json" -d '{"prompt":"오늘 저녁메뉴 추천"}' http://localhost:3000/llama
+POST http://localhost:3000/llama
+Content-Type: application/json
+
+{
+  "prompt": "오늘 저녁메뉴 추천"
+}
+
+### deepseek
+# curl -X POST -H "Content-Type: application/json" -d '{"prompt":"오늘 저녁메뉴 추천"}' http://localhost:3000/deepseek
+POST http://localhost:3000/deepseek
+Content-Type: application/json
+
+{
+  "prompt": "오늘 저녁메뉴 추천"
+}
+
+### flux
+POST http://localhost:3000/flux
+Content-Type: application/json
+
+{
+  "prompt": "김치찌개"
+}
+
+### stable_diffusion
+# curl -X POST -H "Content-Type: application/json" -d '{"prompt":"오늘 저녁메뉴 추천"}' http://localhost:3000/deepseek
+POST http://localhost:3000/stable_diffusion
+Content-Type: application/json
+
+{
+  "prompt": "김치찌개"
+}
+
+###
+
+
+
+###
+
+
+###
